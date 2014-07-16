@@ -39,7 +39,7 @@ class MarkdownCategory
 
     public function admin_menu()
     {
-        add_submenu_page('plugins.php', 'Markdown Category Setting', 'Markdown CategorySetting', 8, __FILE__, array($this, 'add_submenu_page')); 
+        add_submenu_page('plugins.php', 'Markdown Category Setting', 'Markdown Category Setting', 8, __FILE__, array($this, 'add_submenu_page')); 
     }
 
     public function add_submenu_page()
